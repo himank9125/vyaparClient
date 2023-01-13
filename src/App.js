@@ -4,7 +4,7 @@ import Dashboard from "./components/Dashboard";
 import Home from "./components/Home";
 import LandingPage from "./components/LandingPage";
 
-export const myUrl = "http://localhost:3500";
+export const myUrl = "https://vyaparserver.onrender.com";
 
 function App() {
   return (
