@@ -24,11 +24,11 @@ export default function Home() {
       })
       .then((elm) => {
         setData(elm.data);
-        console.log(elm);
+        // console.log(elm);
       })
       .catch((err) => {
         toast.error(err);
-        console.log(err);
+        // console.log(err);
       });
   };
 
