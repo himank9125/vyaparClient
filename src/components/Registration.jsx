@@ -63,7 +63,7 @@ export default function Registration({ setLogin }) {
     <div className="regContainer">
       <ToastContainer />
       <div className="container">
-        <h3>Registration Form</h3>
+        <h3>Registration Window</h3>
         <form>
           <label>
             Business Name
