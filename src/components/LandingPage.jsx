@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Login from "./Login";
 import "../css/reg.css";
 import Registration from "./Registration";
@@ -6,7 +6,7 @@ import { myUrl } from "../App";
 
 export default function LandingPage() {
   const [login, setLogin] = useState(true);
-  useState(() => {
+  useEffect(() => {
     fetch(myUrl);
   }, []);
   return (
